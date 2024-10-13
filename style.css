@@ -264,6 +264,9 @@ footer {
   .keybord_n2_about_p {
     text-align: center;
   }
+  footer{
+    padding-top: 110px;
+  }
   .footer_box {
     align-items: center;
     justify-content: center;
