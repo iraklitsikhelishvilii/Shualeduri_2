@@ -170,8 +170,111 @@ footer {
 .keybord_n1_btn:hover {
   background-color: #ff9b62;
 }
-@media (max-width: 770px) {
+@media (max-width: 972px) {
+  header {
+    max-width: 690px;
+    width: 100%;
+  }
+  section {
+    max-width: 690px;
+    width: 100%;
+  }
+  .keyboard1 {
+    width: 250px;
+    height: 430px;
+  }
+  .keyboard2 {
+    height: 400px;
+  }
+  .keyboard3 {
+    height: 400px;
+    width: 600px;
+  }
+  .keybord_n1_h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .keybord_n1_p {
+    font-size: 16px;
+  }
+  .keybord_n2_about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    gap: 80px;
+  }
+  .keybord_n2_photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
   footer {
-    margin-left: 40px;
+    column-gap: 175px;
+  }
+  .br2 {
+    display: none;
+  }
+}
+@media (max-width: 634px) {
+  header {
+    padding: 25px;
+    width: 100%;
+  }
+  .header_btn {
+    width: 150px;
+    height: 48px;
+  }
+  section {
+    padding: 25px;
+  }
+  .keybord_n1_btn {
+    width: 150px;
+    height: 48px;
+  }
+  .keyboard1 {
+    width: 320px;
+    padding-top: 32px;
+  }
+  .keyboard2 {
+    width: 144px;
+    height: 226px;
+  }
+  .keyboard3 {
+    width: 180px;
+    height: 226px;
+  }
+  .br1 {
+    display: none;
+  }
+  .keybord_n2_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 24px;
+  }
+  .keybord_n2_about_h {
+    text-align: center;
+  }
+  .keybord_n2_about_p {
+    text-align: center;
+  }
+  .footer_box {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_box_h {
+    text-align: center;
+  }
+  .footer_box_p {
+    text-align: center;
+  }
+  #bottom_p {
+    padding-bottom: 90px;
   }
 }
